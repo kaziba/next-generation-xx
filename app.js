@@ -18,7 +18,7 @@ const tokenize = (text) => {
         return;
       }
 
-      // 構文木解析
+      // 形態素解析
       const tweetTokened = tokenizer.tokenize(text);
       console.log('tweetTokened => ', tweetTokened);
 
